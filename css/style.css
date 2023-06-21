@@ -1,0 +1,55 @@
+body {
+    background-image: url(https://wallpapershome.com/images/wallpapers/macos-big-sur-1280x720-dark-wwdc-2020-22655.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow: hidden;
+  }
+  
+  .card {
+    background: rgba( 143, 135, 135, 0.4 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 4%;
+    top: 25%;
+    text-align: center;
+    width: 375px;
+  }
+  
+  img {
+    border-radius: 15px;
+    height: 375px;
+    width: 375px;
+  }
+  
+  h1 {
+    color: hsl(217, 19%, 31%);
+    font-weight: 700;
+  }
+  
+  p {
+    color: hsl(218, 13%, 29%);
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px;
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
